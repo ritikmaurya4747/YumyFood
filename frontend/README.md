@@ -6,4 +6,10 @@
 # # created header folder and mounted in Home.jsx
 # Header image ko public folder me rakhe hain and waha se ise mount kar rahe h header me 
 # Page reload karne ke baad header text 3s me aane chahiye animation index.css me hain and header.css me ise use kiye hain
-# Now created ExploreMenu folder 
+# Now created ExploreMenu folder to get menu_list images in this folder and mounted in Home.jsx folder
+# Explore menu image me jo border aa rha h use state ke through manage kar rahe h as a props accept karke from Home.jsx state is defined
+# Food item display hone ke liye context create karenge  ise main.jsx me wrap karenge 
+# and assets me se data shopcontext.jsx me import karge taki yaha se data ko kahi bhi use kiye ja sake like Hook and creating FoodDisplay.jsx folder 
+# FoodDisplay.jsx me sare item liye and ise mount kiya FoodItem.jsx compo me 
+# Fooditem me code kar rahe and FoodDisplay me ise return kar rahe hain
+# FoodItem ko cart me add karenge state ke through 
