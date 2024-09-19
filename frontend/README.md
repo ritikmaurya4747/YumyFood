@@ -21,3 +21,4 @@
 # Now making LoginPop compo to handle login or signform  and in the app.jsx creating state to handle it  and app.jsx se as a props setShowLogin ko bheja gaya and navbar me ise accept karke onclick ke through ise true kiya hain then LoginPopup mount hoga 
 # setShowLogin ko Navbar me true kar rahe hain and cross icon par click karne par ise false kar rahe han in LoginPopup compo me 
 # Now makeing cart functionality to update cart data in to cart icon that product user add that product shaw in the cart icon 
+# Adding item into cart code in  Navbar.jsx 
