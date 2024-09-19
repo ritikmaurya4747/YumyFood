@@ -91,3 +91,25 @@
     }
     
 }
+@media(max-width:500px){
+    .navbar-menu{
+        display: none;
+    }
+    .navbar-right button{
+        font-size: 16px;
+}
+    .navbar h1{
+        font-size: 28px;
+        
+    }
+    .navbar {
+        position: sticky;
+        top: 0; /* Adjust top based on preference */
+        z-index: 1000; /* Reasonable z-index */
+        border-bottom: 1px solid #555;
+        background-color: #fff; /* Ensure the navbar has a background to avoid transparency */
+        scroll-behavior: auto;
+      }
+      
+    
+}

@@ -61,6 +61,7 @@
     padding: 6px;
     border-radius: 50px;
     background-color: white;
+    cursor: pointer;
 }
 .food-item-counter img{
     width: 30px;
