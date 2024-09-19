@@ -28,7 +28,10 @@
     min-width: 80px;
     cursor: pointer;
     border-radius: 50%;
-    transition: 0.2s;
+    transition: 0.5s;
+}
+.explore-menu-list-item img:hover{
+    transform: scale(1.05);
 }
 .explore-menu-list-item p{
     margin-top: 10px;
