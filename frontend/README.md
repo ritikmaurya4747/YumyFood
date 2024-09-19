@@ -16,3 +16,4 @@
 # Explore images me jo images hain ushpe click karne par item filter hoke aaye in FoodDisplay compo code written (category==="All")
 # Now creating Footer
 # Creating AppDownload compo 
+# Now going to make responsive 
