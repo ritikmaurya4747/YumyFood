@@ -22,3 +22,4 @@
 # setShowLogin ko Navbar me true kar rahe hain and cross icon par click karne par ise false kar rahe han in LoginPopup compo me 
 # Now makeing cart functionality to update cart data in to cart icon that product user add that product shaw in the cart icon 
 # Adding item into cart code in  Navbar.jsx 
+# Now adding functionality in PlaceOrder pages first we need to import useNavigate in cart.jsx and add onclick functionality in button
