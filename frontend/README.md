@@ -17,3 +17,6 @@
 # Now creating Footer
 # Creating AppDownload compo 
 # Now going to make responsive 
+# Handle menu-list to go on that section using Link adding in Navbar.jsx and css file adding scroll behaviour smooth 
+# Now making LoginPop compo to handle login or signform  and in the app.jsx creating state to handle it  and app.jsx se as a props setShowLogin ko bheja gaya and navbar me ise accept karke onclick ke through ise true kiya hain then LoginPopup mount hoga 
+# setShowLogin ko Navbar me true kar rahe hain and cross icon par click karne par ise false kar rahe han in LoginPopup compo me 
