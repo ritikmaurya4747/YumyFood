@@ -12,4 +12,6 @@
 # and assets me se data shopcontext.jsx me import karge taki yaha se data ko kahi bhi use kiye ja sake like Hook and creating FoodDisplay.jsx folder 
 # FoodDisplay.jsx me sare item liye and ise mount kiya FoodItem.jsx compo me 
 # Fooditem me code kar rahe and FoodDisplay me ise return kar rahe hain
-# FoodItem ko cart me add karenge state ke through 
+# FoodItem   add karenge state ke through and add to cart or remove functionality StoreContext me likhenge 
+# Explore images me jo images hain ushpe click karne par item filter hoke aaye in FoodDisplay compo code written (category==="All")
+# Now creating Footer
