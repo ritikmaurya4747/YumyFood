@@ -118,3 +118,22 @@
       
     
 }
+@media(max-width:400px){
+    .navbar-menu{
+        display: none;
+    }
+    .navbar h1{
+        font-size: 26px;
+    }
+    .navbar-right button{
+        padding: 4px 10px;
+        font-size: 14px;
+    }
+    .navbar-right img{
+        width: 19px;
+    }
+    .navbar-search-icon img{
+        margin-top: 6px;
+    }
+    
+}
