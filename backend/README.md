@@ -5,3 +5,5 @@
 # config, controllers, middleware, models, routes, uploads, .env
 # Added this fetures ES6 "type":"module"
 # Now importing all packages in server.js and making server 
+# Now creating mongoDb cluster in mongoatlas getting url from thier now going to connect 
+# congif folder creating db.js file and making connection to connect 
