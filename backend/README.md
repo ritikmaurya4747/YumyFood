@@ -14,4 +14,5 @@
 # creating endpoint for foodRoute.js in server.js file.
 # and uploading image using multer 
 # logic inside foodController.js to store image in databasse using cloudinary
-# Foodlist endpoint 
+# creating  endpoint for Foodlist in foodRouter.jsx in funt in foodController
+# remove food item from db using findbyid from foodmodel.js 

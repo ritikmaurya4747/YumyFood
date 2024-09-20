@@ -3,7 +3,7 @@ import multer from 'multer';
 import { v2 as cloudinaryV2 } from 'cloudinary';
 import dotenv from 'dotenv';
 import fs from 'fs';
-import { addFood, listFood } from '../controllers/foodController.js';
+import { addFood, listFood, removeFood } from '../controllers/foodController.js';
 
 // Load environment variables from .env file
 dotenv.config();
@@ -45,5 +45,6 @@ foodRouter.post('/add', upload.single('image'), async (req, res) => {
     }
 });
 foodRouter.get("/list",listFood)
+foodRouter.post('/remove',removeFood)
 
 export default foodRouter;
