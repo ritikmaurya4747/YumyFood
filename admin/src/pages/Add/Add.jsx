@@ -4,7 +4,7 @@ import {assets}  from '../../assets/assets'
 function Add() {
   return (
     <div className='add'>
-        <form className='flec-col'>
+        <form className='flex-col'>
           <div className="add-img-upload flex-col">
             <p>Upload Image</p>
             <label htmlFor="image">
