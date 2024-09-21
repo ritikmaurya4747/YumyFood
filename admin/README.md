@@ -9,4 +9,6 @@
 # creating routes in App.jsx file for this pages
 # Sidebar.jsx importing {NavLink} to link this pages  to add some styles after clicking 
 # creating pages compo UI and some logics add, cart, orders.
-# 
+# upload images handle ke liye usestate ka use karenge
+# adding form data information store manage with state and onchangehandler funtion 
+# creating api call for Add.jsx while submitting the button hit the api endpoint to store data into database.
