@@ -13,3 +13,4 @@
 # adding form data information store manage with state and onchangehandler funtion 
 # creating api call for Add.jsx while submitting the button hit the api endpoint to store data into database.
 # npm toastify for alert popup in add.jsx import in app.jsx
+# storeing all data into List.jsx for mounting in the frontend using state 

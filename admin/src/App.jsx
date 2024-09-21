@@ -12,6 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   return (
     <div>
+    <Navbar/>
     <ToastContainer/>
       <hr />
       <div className="app-content">
