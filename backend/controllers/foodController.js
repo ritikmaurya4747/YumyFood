@@ -21,7 +21,7 @@ const addFood = async (req, res) => {
         await food.save();
         res.json({
             success: true,
-            message: "Food added successfully and saved in MongoDB!"
+            message: "Food Added"
         });
     } catch (error) {
         console.log("Error saving food to MongoDB:", error);

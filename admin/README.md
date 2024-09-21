@@ -12,3 +12,4 @@
 # upload images handle ke liye usestate ka use karenge
 # adding form data information store manage with state and onchangehandler funtion 
 # creating api call for Add.jsx while submitting the button hit the api endpoint to store data into database.
+# npm toastify for alert popup in add.jsx import in app.jsx
