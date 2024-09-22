@@ -1,5 +1,15 @@
 import foodModel from "../models/foodModel.js";
-import fs from 'fs';
+import cloudinary from 'cloudinary';
+
+
+
+// Configure Cloudinary
+cloudinary.config({
+CLOUDINARY_CLOUD_NAME:'yumyfood',
+CLOUDINARY_API_KEY:'235687183116884',
+CLOUDINARY_API_SECRET:'9Cjt_qaalvEdnJTBbE7bbMy84fY'
+});
+
 
 // add food item 
 const addFood = async (req, res) => {
@@ -49,10 +59,17 @@ const listFood = async (req,res) => {
 // remove food item 
 const removeFood = async (req,res) => {
     try {
-        const food = await foodModel.findById(req.body._id);
-        fs.unlink(`uploads/${food.image}`, ()=> {})
+         // Find the food item by ID
+        const food = await foodModel.findById(req.body.id);  // changed req.body._id to req.body.id
 
-        await foodModel.findByIdAndDelete(req.body._id);
+        if (!food) {
+            return res.json({
+                success: false,
+                message: "Food item not found"
+            });
+        }
+
+        await foodModel.findByIdAndDelete(req.body.id);
         res.json({
             success: true,
             message:"Food Removed"

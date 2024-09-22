@@ -17,7 +17,13 @@ function List() {
   };
 
   const removeFood = async (foodId) => {
-        
+        const response = await axios.post(`${url}/api/food/remove`,{id:foodId});
+        if (response.data.success) {
+          toast.success("Food removed successfully!"); // Show success toast
+          fetchList(); // Refresh the list to update the UI
+        } else {
+          toast.error(response.data.message || "Error removing food item."); // Show error toast
+        }
   }
 
   useEffect(() => {
@@ -36,7 +42,7 @@ function List() {
           <b>Action</b>
         </div>
         {list.map((item, index) => {
-          console.log(item.image_url); // Check the image URL
+          
           return (
             <div key={index} className="list-table-format">
               <img src={item.image} alt="" />
