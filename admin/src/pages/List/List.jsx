@@ -18,11 +18,11 @@ function List() {
 
   const removeFood = async (foodId) => {
         const response = await axios.post(`${url}/api/food/remove`,{id:foodId});
+        await fetchList(); // Refresh the list to update the UI
         if (response.data.success) {
-          toast.success("Food removed successfully!"); // Show success toast
-          fetchList(); // Refresh the list to update the UI
+          toast.success(response.data.message); // Show success toast
         } else {
-          toast.error(response.data.message || "Error removing food item."); // Show error toast
+          toast.error(response.data.message ); // Show error toast
         }
   }
 

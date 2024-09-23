@@ -14,3 +14,5 @@
 # creating api call for Add.jsx while submitting the button hit the api endpoint to store data into database.
 # npm toastify for alert popup in add.jsx import in app.jsx
 # storeing all data into List.jsx for mounting in the frontend using state 
+# removing item from db and cloudinary code in foodController.jsx and List.jsx
+# adding all products using admin panel in databse

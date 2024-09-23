@@ -60,8 +60,7 @@ const listFood = async (req,res) => {
 const removeFood = async (req,res) => {
     try {
          // Find the food item by ID
-        const food = await foodModel.findById(req.body.id);  // changed req.body._id to req.body.id
-
+        const food = await foodModel.findById(req.body.id);  
         if (!food) {
             return res.json({
                 success: false,
