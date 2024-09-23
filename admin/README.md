@@ -16,3 +16,4 @@
 # storeing all data into List.jsx for mounting in the frontend using state 
 # removing item from db and cloudinary code in foodController.jsx and List.jsx
 # adding all products using admin panel in databse
+# adding url in app.jsx and pass the url to the compo as a props .

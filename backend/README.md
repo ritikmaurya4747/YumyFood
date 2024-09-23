@@ -16,3 +16,6 @@
 # logic inside foodController.js to store image in databasse using cloudinary
 # creating  endpoint for Foodlist in foodRouter.jsx in funt in foodController
 # remove food item from db using findbyid from foodmodel.js 
+# creating files userController,userModel, userRouter to authenticate user to login and access all functionality.
+# writing code for userModel.jsx after importing in usercontroller.jsx 
+# importing usercontroller.jsx in userRouter.jsx after making endpoint make api endpoind in server.jsx.
