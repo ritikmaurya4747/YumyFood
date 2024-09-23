@@ -19,4 +19,8 @@
 # creating files userController,userModel, userRouter to authenticate user to login and access all functionality.
 # writing code for userModel.jsx after importing in usercontroller.jsx 
 # importing usercontroller.jsx in userRouter.jsx after making endpoint make api endpoind in server.jsx.
-# 
+# creating endpoind for store userCart data into database 
+# creating file cartController.jsx
+# creating file cartRouter.jsx
+# now is this both intiliaze in server.jsx
+# now creating file for auth.js to authenticate user using middleware  now connect to the cartRouter.jsx using import 
