@@ -12,7 +12,27 @@ const createToken = (id) => {
 
 // Login user
 const loginUser = async (req, res) => {
-    // Logic for login user will go here
+    const {email, password} = req.body;
+    try {
+        const user = await userModel.findOne({email});
+        if(!user){
+            return res.status(401).json({ success: false, message: "User not found" });
+        }
+        
+        // Check if password matches
+        const isMatch = await bcrypt.compare(password,user.password);
+        if(!isMatch){
+            return res.status(401).json({ success: false, message: "Incorrect password" });
+        }
+        
+        // Create and return JWT token
+        const token = createToken(user._id);
+        res.json({ success: true,token });
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({ success: false, message: "Server Error" });
+        
+    }
 };
 
 
