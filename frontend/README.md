@@ -24,3 +24,7 @@
 # Adding item into cart code in  Navbar.jsx 
 # Now adding functionality in PlaceOrder pages first we need to import useNavigate in cart.jsx and add onclick functionality in button
 # now creating adding functionality in placeorder compo 
+# connectiing login , signup endpoit with the frontend .
+# defined url in storeContext.jsx
+# login hone ke baad logout button dikhe so add custom hook un navbar.jsx
+# refresh karne par logout na ho logic inside storeContext.jsx
