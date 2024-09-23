@@ -4,7 +4,7 @@ import { assets } from "../../assets/assets";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-function Add() {
+function Add({url}) {
   const [image, setImage] = useState(false);
   const [data, setData] = useState({
     name: "",
@@ -24,24 +24,21 @@ function Add() {
     const formData = new FormData();
     formData.append("name", data.name);
     formData.append("description", data.description);
-    formData.append("price",Number(data.price));
+    formData.append("price", Number(data.price));
     formData.append("category", data.category);
     formData.append("image", image);
-    const response = await axios.post(
-      "http://localhost:4000/api/food/add",
-      formData
-    );
+    const response = await axios.post(`${url}/api/food/add`, formData);
     if (response.data.success) {
       setData({
         name: "",
         description: "",
         category: "Salad",
         price: "",
-      })
-      setImage(false)
-      toast.success(response.data.message)
-    }else{
-      toast.error(response.data.message)
+      });
+      setImage(false);
+      toast.success(response.data.message);
+    } else {
+      toast.error(response.data.message);
     }
   };
 
@@ -100,7 +97,7 @@ function Add() {
               <option value="Cake">Cake</option>
               <option value="Pure Veg">Pure Veg</option>
               <option value="Pasta">Pasta</option>
-              <option value="Noodles"></option>
+              <option value="Noodles">Noodles</option>
             </select>
           </div>
           <div className="add-price flex-col">
