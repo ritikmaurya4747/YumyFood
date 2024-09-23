@@ -28,3 +28,4 @@
 # defined url in storeContext.jsx
 # login hone ke baad logout button dikhe so add custom hook un navbar.jsx
 # refresh karne par logout na ho logic inside storeContext.jsx
+# now getting image or data from databse making state in storeContext.jsx
