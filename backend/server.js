@@ -4,6 +4,7 @@ import dotenv from 'dotenv'
 import { connectDB } from './config/db.js';
 import foodRouter from './routes/foodRouter.js';
 import userRouter from './routes/userRouter.js';
+import cartRouter from './routes/cartRouter.js';
 
 // app config
 const app = express();
@@ -18,9 +19,9 @@ app.use(cors());
 connectDB();
 
 // api endpoints
-app.use("/api/food",foodRouter)
-app.use('/api/user',userRouter)
-app.use('/api/cart',cartRouter)
+app.use("/api/food", foodRouter)
+app.use('/api/user', userRouter)
+app.use('/api/cart', cartRouter)
 
 app.get('/',(req,res) => {
     res.send("API Working")

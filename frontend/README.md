@@ -29,3 +29,5 @@
 # login hone ke baad logout button dikhe so add custom hook un navbar.jsx
 # refresh karne par logout na ho logic inside storeContext.jsx
 # now getting image or data from databse making state in storeContext.jsx
+# now getting from database using api in list to intigrate.
+# ab backend api frontend se connect karenge taki cart me data save karte hi db me save ho. adding in the storeContext.jsx api  added token inside the code if {block code }

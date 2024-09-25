@@ -24,3 +24,4 @@
 # creating file cartRouter.jsx
 # now is this both intiliaze in server.jsx
 # now creating file for auth.js to authenticate user using middleware  now connect to the cartRouter.jsx using import 
+# now making  functionality in cartController.jsx
