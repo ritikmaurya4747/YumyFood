@@ -26,4 +26,4 @@
 # now creating file for auth.js to authenticate user using middleware  now connect to the cartRouter.jsx using import 
 # now making  functionality in cartController.jsx
 # place the order from frontend  login inside backend .....................
-# first create modele , routes , controller 
+# first create modele ,  controller , routes

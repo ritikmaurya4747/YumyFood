@@ -44,7 +44,7 @@ const StoreContextProvider = (props) => {
     setFoodList(response.data.data)
   }
 
-  // page reload karne par item show kare 
+  // page reload karne par add item reload na ho  show kare 
   const loadCartData = async (token) => {
     const response = await axios.post(url + '/api/cart/get',{},{headers:{token}});
     setCartItems(response.data.cartData)
