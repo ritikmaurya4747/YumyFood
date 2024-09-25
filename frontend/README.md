@@ -35,3 +35,4 @@
 # now adding endpoint api for order place in placeOrder.jsx file. and importing data from store context 
 # creating folder Verify in pages connecting verify endpoint with the frontend  
 # create route in app.jsx for ( /verify )
+# creating file MyOrders in pages or  adding userOrders api in myOrders.jsx to display all the orders that book
