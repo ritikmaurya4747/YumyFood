@@ -44,12 +44,19 @@ const StoreContextProvider = (props) => {
     setFoodList(response.data.data)
   }
 
+  // page reload karne par item show kare 
+  const loadCartData = async (token) => {
+    const response = await axios.post(url + '/api/cart/get',{},{headers:{token}});
+    setCartItems(response.data.cartData)
+  }
+
   // Reload hone par logout na ho
   useEffect(() => {
     async function loadData (){
       await fetchFoodList();
       if(localStorage.getItem("token")){
         setToken(localStorage.getItem("token"));
+        await loadCartData(localStorage.getItem('token'));
       }
     }
     loadData();

@@ -31,3 +31,4 @@
 # now getting image or data from databse making state in storeContext.jsx
 # now getting from database using api in list to intigrate.
 # ab backend api frontend se connect karenge taki cart me data save karte hi db me save ho. adding in the storeContext.jsx api  added token inside the code if {block code }
+# page reload karne par added item quntity show kare 
