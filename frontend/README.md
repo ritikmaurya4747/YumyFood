@@ -36,3 +36,4 @@
 # creating folder Verify in pages connecting verify endpoint with the frontend  
 # create route in app.jsx for ( /verify )
 # creating file MyOrders in pages or  adding userOrders api in myOrders.jsx to display all the orders that book
+# creating functionality to when user logout that a time order page can not access or see  in PlaceOrder.jsx useing useEffect Hook this logic can make this is working .
