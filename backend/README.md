@@ -26,4 +26,6 @@
 # now creating file for auth.js to authenticate user using middleware  now connect to the cartRouter.jsx using import 
 # now making  functionality in cartController.jsx
 # place the order from frontend  login inside backend .....................
-# first create modele ,  controller , routes
+# first create modele ,  controller , routes , create in server.js 
+# after creating stripe.com account and secretkey paste in .env file. 
+# 

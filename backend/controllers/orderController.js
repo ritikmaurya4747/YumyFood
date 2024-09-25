@@ -3,7 +3,7 @@ import userModel from '../models/userModel.js';
 import stripe from 'stripe';
 
 
-// placeing user order from frontend
+// placing user order from frontend
 const placeOrder = async (req,res) => {
 
 }
