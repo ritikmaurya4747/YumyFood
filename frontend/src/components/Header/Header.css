@@ -64,7 +64,11 @@
         display: none;
     }
     .header-contents button{
-        padding: 2vw 4vw;
+        padding: 1vw 2vw;
         margin-bottom: 10px;
+        font-size: 10px;
+    }
+    .header-contents h2{
+        font-size: 20px;
     }
 }
