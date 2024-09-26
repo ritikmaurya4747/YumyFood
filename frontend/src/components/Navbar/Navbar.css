@@ -168,5 +168,10 @@
     .navbar-search-icon img{
         margin-top: 6px;
     }
+    .navbar-right{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
     
 }
