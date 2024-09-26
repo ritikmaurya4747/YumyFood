@@ -54,3 +54,17 @@
         margin-bottom: 10px;
     }
 }
+@media(max-width:360px){
+    
+    .header-contents{
+        max-width: 85%;
+        
+    }
+    .header-contents p{
+        display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+        margin-bottom: 10px;
+    }
+}
