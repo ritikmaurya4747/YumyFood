@@ -30,3 +30,4 @@
 # after creating stripe.com account and secretkey paste in .env file. 
 # temporary verification for when payment success id deleted from db server. logic inside orderController.js
 # creating endpoint for userOrders, route, in orderController.js
+# creating api for admin panel see all orders in orderController.js and routes
