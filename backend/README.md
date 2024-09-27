@@ -31,3 +31,4 @@
 # temporary verification for when payment success id deleted from db server. logic inside orderController.js
 # creating endpoint for userOrders, route, in orderController.js
 # creating api for admin panel see all orders in orderController.js and routes
+# order status update hone ke liye api creat karenege in orderController.jsx and route also 
